@@ -22,7 +22,7 @@ def resolve_p1():
 
 def resolve_p2(data):
     """resolve p2."""
-    cals = data[0] + data[1] + data[2]
+    cals = sum(data[0:3])
     print(f"Total p2 = {cals}")
     return cals
 
