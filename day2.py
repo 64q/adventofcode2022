@@ -1,4 +1,4 @@
-"""resolve day1"""
+"""resolve day2"""
 
 equiv = {
     'X': 'A', 'Y': 'B', 'Z': 'C'
