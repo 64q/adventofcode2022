@@ -56,7 +56,8 @@ def resolve_p1():
 
 def resolve_p2():
     """resolve p2."""
-    smallest = [value for _, value in sums_of_dirs().items() if (70000000 - 48518336 + value) >= 30000000]
+    smallest = [value for _, value in sums_of_dirs().items() \
+        if (70000000 - 48518336 + value) >= 30000000]
     print(smallest[0])
 
 if __name__ == '__main__':
